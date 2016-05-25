@@ -48,7 +48,7 @@ public class BorrowingBooks {
     @Then("^the book shows up on my profile page$")
     public void theBookShowsUpOnMyProfilePage() {
         sleep(1000);
-        $("#side-menu-link-smy-profile").click();
+        $("#side-menu-link-my-profile").click();
         sleep(1000);
         assertEquals("Good Omens has been borrowed", "Good Omens", $("td.v-grid-cell:nth-child(1) > a:nth-child(1)").getText());
     }
