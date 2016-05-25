@@ -3,12 +3,10 @@ package se.nackademin.cucumber.stepdefinitions;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
-import se.nackademin.cucumber.CucumberTestBase;
 
 import java.util.UUID;
 
 import static com.codeborne.selenide.Selenide.$;
-import static com.codeborne.selenide.Selenide.open;
 import static com.codeborne.selenide.Selenide.sleep;
 import static junit.framework.TestCase.assertEquals;
 
